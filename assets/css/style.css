@@ -1,0 +1,47 @@
+:root{
+    --primary:  #1b0088;
+    --secondary: #ffffff;
+}
+
+body{
+    background-color: var(--primary);
+}
+
+.cabin{
+    font-family: 'Cabin', 'Courier New', Courier, monospace;
+    
+}
+
+header{    
+    background-color: var(--primary);    
+}
+
+a.navbar-brand, a.nav-link{
+    color: var(--secondary);
+}
+
+.navbar-toggler{
+    filter: invert(1);
+}
+
+#mainImgSection {
+    width: 100%; /* Ancho del elemento */
+    height: 600px; /* Altura del elemento */
+    background-image: url('../img/jumbo-jet-flying-sky.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#aboutSection{
+    color: var(--secondary);
+    width: 100%;
+    padding: 2rem;
+}
+
+.card img{
+    width: 100%;
+    height: 10rem;
+
+}
+
